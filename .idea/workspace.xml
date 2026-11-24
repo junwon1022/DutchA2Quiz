@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Decks migration file">
-      <change afterPath="$PROJECT_DIR$/supabase/schemas/deck_words.sql" afterDir="false" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Deck words migration file">
+      <change afterPath="$PROJECT_DIR$/supabase/schemas/user_word_progress.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +41,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1398242133022436" />
-      <entry key="MS500" value="2.2900692463204773" />
-      <entry key="S2" value="5.2911892184839004" />
-      <entry key="S5" value="8.60444141060518" />
-      <entry key="S10" value="11.067902994855183" />
-      <entry key="S30" value="15.621652007522954" />
-      <entry key="S60" value="23.350989568831444" />
-      <entry key="M2" value="36.303425277650156" />
-      <entry key="M5" value="56.09241647243081" />
-      <entry key="M10" value="68.87388551532143" />
-      <entry key="M15" value="74.53312365982246" />
-      <entry key="M30" value="81.16504996806209" />
-      <entry key="H1" value="84.91552272142839" />
-      <entry key="H2" value="86.91371033292398" />
-      <entry key="H4" value="87.94553963627814" />
-      <entry key="D1" value="88.82265856450314" />
-      <entry key="W1" value="88.97462602361414" />
+      <entry key="MS100" value="1.000609536400831" />
+      <entry key="MS500" value="1.2275097060202247" />
+      <entry key="S2" value="1.6906373416825307" />
+      <entry key="S5" value="1.8650402169341094" />
+      <entry key="S10" value="2.029497293547898" />
+      <entry key="S30" value="4.051746755564655" />
+      <entry key="S60" value="8.31013929148768" />
+      <entry key="M2" value="18.91785262752537" />
+      <entry key="M5" value="44.47823564092032" />
+      <entry key="M10" value="65.10264535823133" />
+      <entry key="M15" value="74.98507636802069" />
+      <entry key="M30" value="87.07341463014721" />
+      <entry key="H1" value="94.13486505239425" />
+      <entry key="H2" value="97.96031018159984" />
+      <entry key="H4" value="99.95248717499908" />
+      <entry key="D1" value="101.65482708541845" />
+      <entry key="W1" value="101.95059252862784" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -79,23 +79,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1009976224552724" />
-      <entry key="MS500" value="2.274143767621894" />
-      <entry key="S2" value="5.281508584325965" />
-      <entry key="S5" value="8.598087020125334" />
-      <entry key="S10" value="11.063764487284086" />
-      <entry key="S30" value="15.618954548763034" />
-      <entry key="S60" value="23.34804991063996" />
-      <entry key="M2" value="36.30045545232939" />
-      <entry key="M5" value="56.09016160783837" />
-      <entry key="M10" value="68.872399162364" />
-      <entry key="M15" value="74.53202719541247" />
-      <entry key="M30" value="81.16444028907142" />
-      <entry key="H1" value="84.91520062149358" />
-      <entry key="H2" value="86.91354470281017" />
-      <entry key="H4" value="87.94545564114375" />
-      <entry key="D1" value="88.82264439834655" />
-      <entry key="W1" value="88.9746239957479" />
+      <entry key="MS100" value="0.9532027871962349" />
+      <entry key="MS500" value="1.214409546825376" />
+      <entry key="S2" value="1.6855863562845186" />
+      <entry key="S5" value="1.8627543498809946" />
+      <entry key="S10" value="2.0282656683026685" />
+      <entry key="S30" value="4.0510344340590665" />
+      <entry key="S60" value="8.309375702335574" />
+      <entry key="M2" value="18.916679387576174" />
+      <entry key="M5" value="44.47671826083923" />
+      <entry key="M10" value="65.10140408952898" />
+      <entry key="M15" value="74.98408917083091" />
+      <entry key="M30" value="87.07282198750654" />
+      <entry key="H1" value="94.13453956158311" />
+      <entry key="H2" value="97.96013950786977" />
+      <entry key="H4" value="99.95239977054203" />
+      <entry key="D1" value="101.65481222328643" />
+      <entry key="W1" value="101.95059039814788" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -107,23 +107,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -220,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795563496498</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Deck words migration file">
+      <option name="closed" value="true" />
+      <created>1795563676247</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1795563676247</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +247,7 @@
     <MESSAGE value="Add configs" />
     <MESSAGE value="decks sql file addition" />
     <MESSAGE value="Decks migration file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decks migration file" />
+    <MESSAGE value="Deck words migration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deck words migration file" />
   </component>
 </project>
