@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="User word progress migration file">
-      <change afterPath="$PROJECT_DIR$/supabase/schemas/study_sessions.sql" afterDir="false" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Add secrets to gitignore">
+      <change afterPath="$PROJECT_DIR$/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supabase_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supabase_connection_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +44,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0719522020220122" />
-      <entry key="MS500" value="1.9224427005363451" />
-      <entry key="S2" value="4.163151480574032" />
-      <entry key="S5" value="6.195703334947175" />
-      <entry key="S10" value="10.61350780743565" />
-      <entry key="S30" value="23.816928233486266" />
-      <entry key="S60" value="33.44053667210796" />
-      <entry key="M2" value="46.94748450213822" />
-      <entry key="M5" value="75.08642126283158" />
-      <entry key="M10" value="97.76595736990394" />
-      <entry key="M15" value="108.72717455094052" />
-      <entry key="M30" value="122.21922744178474" />
-      <entry key="H1" value="130.14177308590507" />
-      <entry key="H2" value="134.44585689977737" />
-      <entry key="H4" value="136.69059366477603" />
-      <entry key="D1" value="138.61051315652733" />
-      <entry key="W1" value="138.94424545695568" />
+      <entry key="MS100" value="1.0352197142659247" />
+      <entry key="MS500" value="2.104244646158305" />
+      <entry key="S2" value="4.568352441136506" />
+      <entry key="S5" value="6.206089753988882" />
+      <entry key="S10" value="7.008616735725775" />
+      <entry key="S30" value="7.666744276255141" />
+      <entry key="S60" value="8.87304215942329" />
+      <entry key="M2" value="16.891601949049967" />
+      <entry key="M5" value="49.53251195225418" />
+      <entry key="M10" value="84.92891299567773" />
+      <entry key="M15" value="104.25415059453918" />
+      <entry key="M30" value="129.78567752770857" />
+      <entry key="H1" value="145.61315141651247" />
+      <entry key="H2" value="154.4580536770337" />
+      <entry key="H4" value="159.13800789861483" />
+      <entry key="D1" value="163.17668062527264" />
+      <entry key="W1" value="163.88206026822803" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -79,23 +82,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0359187959986735" />
-      <entry key="MS500" value="1.9094160510989373" />
-      <entry key="S2" value="4.155486203024702" />
-      <entry key="S5" value="6.190977532305768" />
-      <entry key="S10" value="10.609176782780304" />
-      <entry key="S30" value="23.813464522850477" />
-      <entry key="S60" value="33.438013969297124" />
-      <entry key="M2" value="46.94540049712339" />
-      <entry key="M5" value="75.08454278298493" />
-      <entry key="M10" value="97.76451615880136" />
-      <entry key="M15" value="108.72604398103061" />
-      <entry key="M30" value="122.21855552588833" />
-      <entry key="H1" value="130.14140542214412" />
-      <entry key="H2" value="134.44566440767358" />
-      <entry key="H4" value="136.69049515462112" />
-      <entry key="D1" value="138.61049641493736" />
-      <entry key="W1" value="138.94424305726727" />
+      <entry key="MS100" value="1.0069416225590806" />
+      <entry key="MS500" value="2.0918018120598663" />
+      <entry key="S2" value="4.56133633857209" />
+      <entry key="S5" value="6.202190974623697" />
+      <entry key="S10" value="7.006393885608748" />
+      <entry key="S30" value="7.665924843903069" />
+      <entry key="S60" value="8.872515376146595" />
+      <entry key="M2" value="16.890932988744318" />
+      <entry key="M5" value="49.53138578807559" />
+      <entry key="M10" value="84.92776345259284" />
+      <entry key="M15" value="104.25314978368176" />
+      <entry key="M30" value="129.78501458965937" />
+      <entry key="H1" value="145.61276787030985" />
+      <entry key="H2" value="154.45784711938538" />
+      <entry key="H4" value="159.1379006779708" />
+      <entry key="D1" value="163.1766621855576" />
+      <entry key="W1" value="163.88205761973575" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -238,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1795563771007</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Study sessions migration file">
+      <option name="closed" value="true" />
+      <created>1795563838635</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1795563838635</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add secrets to gitignore">
+      <option name="closed" value="true" />
+      <created>1795564120915</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1795564120915</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +276,8 @@
     <MESSAGE value="Decks migration file" />
     <MESSAGE value="Deck words migration file" />
     <MESSAGE value="User word progress migration file" />
-    <option name="LAST_COMMIT_MESSAGE" value="User word progress migration file" />
+    <MESSAGE value="Study sessions migration file" />
+    <MESSAGE value="Add secrets to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add secrets to gitignore" />
   </component>
 </project>
