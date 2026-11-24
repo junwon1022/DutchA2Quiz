@@ -4,14 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Add vocabulary sql file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;junwon1022&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/junwon1022/DutchA2Quiz.git&quot;,
+    &quot;accountId&quot;: &quot;42b6d24d-4bd5-4dd6-a28d-34b4cdf6b8b3&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000297089093839" />
+      <entry key="MS500" value="1.3744926079179358" />
+      <entry key="S2" value="2.997856678945126" />
+      <entry key="S5" value="3.9983369994605455" />
+      <entry key="S10" value="4.456893319941548" />
+      <entry key="S30" value="4.834808527098953" />
+      <entry key="S60" value="5.5997202074995736" />
+      <entry key="M2" value="8.57835119888624" />
+      <entry key="M5" value="14.770110479748796" />
+      <entry key="M10" value="18.626950629165254" />
+      <entry key="M15" value="20.223959598895323" />
+      <entry key="M30" value="22.007669761480575" />
+      <entry key="H1" value="22.97629010992102" />
+      <entry key="H2" value="23.481066406095444" />
+      <entry key="H4" value="23.738738894377658" />
+      <entry key="D1" value="23.956205152954315" />
+      <entry key="W1" value="23.993737410438545" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9728412354972228" />
+      <entry key="MS500" value="1.273324643555725" />
+      <entry key="S2" value="2.868315579673856" />
+      <entry key="S5" value="3.925605607377201" />
+      <entry key="S10" value="4.41614440635132" />
+      <entry key="S30" value="4.820144438692703" />
+      <entry key="S60" value="5.5921443010458685" />
+      <entry key="M2" value="8.574290893326488" />
+      <entry key="M5" value="14.768272730796477" />
+      <entry key="M10" value="18.625965413718646" />
+      <entry key="M15" value="20.22328445367118" />
+      <entry key="M30" value="22.007321940133256" />
+      <entry key="H1" value="22.97611341431765" />
+      <entry key="H2" value="23.480977332326404" />
+      <entry key="H4" value="23.738694172159782" />
+      <entry key="D1" value="23.956197673178576" />
+      <entry key="W1" value="23.993736341256266" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
@@ -22,16 +100,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,9 +133,58 @@
       <updated>1795556215507</updated>
       <workItem from="1795556215509" duration="52000" />
     </task>
+    <task id="LOCAL-00001" summary="Node &amp; Supabase setup">
+      <option name="closed" value="true" />
+      <created>1795559769939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1795559769939</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Base files">
+      <option name="closed" value="true" />
+      <created>1795561863921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1795561863921</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sql schema file">
+      <option name="closed" value="true" />
+      <created>1795561874371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1795561874371</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial 2 migrations">
+      <option name="closed" value="true" />
+      <created>1795561900030</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1795561900030</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add vocabulary sql file">
+      <option name="closed" value="true" />
+      <created>1795562158171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1795562158171</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Node &amp; Supabase setup" />
+    <MESSAGE value="Base files" />
+    <MESSAGE value="sql schema file" />
+    <MESSAGE value="initial 2 migrations" />
+    <MESSAGE value="Add vocabulary sql file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add vocabulary sql file" />
   </component>
 </project>
