@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="decks sql file addition" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Decks migration file">
+      <change afterPath="$PROJECT_DIR$/supabase/schemas/deck_words.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,23 +41,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.037077355358436" />
-      <entry key="MS500" value="3.9063406776925356" />
-      <entry key="S2" value="4.683586785489853" />
-      <entry key="S5" value="4.870575853821623" />
-      <entry key="S10" value="5.055489617190492" />
-      <entry key="S30" value="9.889112002203971" />
-      <entry key="S60" value="19.483329612291705" />
-      <entry key="M2" value="31.661753941106625" />
-      <entry key="M5" value="47.973625592853715" />
-      <entry key="M10" value="58.18217259772199" />
-      <entry key="M15" value="62.65997914857916" />
-      <entry key="M30" value="67.87720059258488" />
-      <entry key="H1" value="70.8135387686912" />
-      <entry key="H2" value="72.3738750455995" />
-      <entry key="H4" value="73.17850041705995" />
-      <entry key="D1" value="73.86189297905271" />
-      <entry key="W1" value="73.98024102644942" />
+      <entry key="MS100" value="1.1398242133022436" />
+      <entry key="MS500" value="2.2900692463204773" />
+      <entry key="S2" value="5.2911892184839004" />
+      <entry key="S5" value="8.60444141060518" />
+      <entry key="S10" value="11.067902994855183" />
+      <entry key="S30" value="15.621652007522954" />
+      <entry key="S60" value="23.350989568831444" />
+      <entry key="M2" value="36.303425277650156" />
+      <entry key="M5" value="56.09241647243081" />
+      <entry key="M10" value="68.87388551532143" />
+      <entry key="M15" value="74.53312365982246" />
+      <entry key="M30" value="81.16504996806209" />
+      <entry key="H1" value="84.91552272142839" />
+      <entry key="H2" value="86.91371033292398" />
+      <entry key="H4" value="87.94553963627814" />
+      <entry key="D1" value="88.82265856450314" />
+      <entry key="W1" value="88.97462602361414" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -77,23 +79,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.9127907111208824" />
-      <entry key="MS500" value="3.827143773646691" />
-      <entry key="S2" value="4.656331850973443" />
-      <entry key="S5" value="4.858910394728542" />
-      <entry key="S10" value="5.049198275038347" />
-      <entry key="S30" value="9.884406914760193" />
-      <entry key="S60" value="19.47894058274651" />
-      <entry key="M2" value="31.65808001479717" />
-      <entry key="M5" value="47.97121645179642" />
-      <entry key="M10" value="58.18066900752699" />
-      <entry key="M15" value="62.65889074001112" />
-      <entry key="M30" value="67.87660693677022" />
-      <entry key="H1" value="70.81322818134876" />
-      <entry key="H2" value="72.37371611866595" />
-      <entry key="H4" value="73.17842001981181" />
-      <entry key="D1" value="73.86187944759507" />
-      <entry key="W1" value="73.98023909012406" />
+      <entry key="MS100" value="1.1009976224552724" />
+      <entry key="MS500" value="2.274143767621894" />
+      <entry key="S2" value="5.281508584325965" />
+      <entry key="S5" value="8.598087020125334" />
+      <entry key="S10" value="11.063764487284086" />
+      <entry key="S30" value="15.618954548763034" />
+      <entry key="S60" value="23.34804991063996" />
+      <entry key="M2" value="36.30045545232939" />
+      <entry key="M5" value="56.09016160783837" />
+      <entry key="M10" value="68.872399162364" />
+      <entry key="M15" value="74.53202719541247" />
+      <entry key="M30" value="81.16444028907142" />
+      <entry key="H1" value="84.91520062149358" />
+      <entry key="H2" value="86.91354470281017" />
+      <entry key="H4" value="87.94545564114375" />
+      <entry key="D1" value="88.82264439834655" />
+      <entry key="W1" value="88.9746239957479" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -210,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795563368529</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Decks migration file">
+      <option name="closed" value="true" />
+      <created>1795563496498</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1795563496498</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +236,7 @@
     <MESSAGE value="Add project gitignore file" />
     <MESSAGE value="Add configs" />
     <MESSAGE value="decks sql file addition" />
-    <option name="LAST_COMMIT_MESSAGE" value="decks sql file addition" />
+    <MESSAGE value="Decks migration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decks migration file" />
   </component>
 </project>
