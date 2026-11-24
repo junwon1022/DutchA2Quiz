@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="initial 2 migrations">
-      <change afterPath="$PROJECT_DIR$/supabase/schemas/vocabulary.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Add vocabulary sql file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,23 +34,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0848309288383546" />
-      <entry key="MS500" value="1.7444449391516081" />
-      <entry key="S2" value="2.489814961922642" />
-      <entry key="S5" value="2.996711236109057" />
-      <entry key="S10" value="4.630697990845029" />
-      <entry key="S30" value="10.461259169922334" />
-      <entry key="S60" value="13.908702334937722" />
-      <entry key="M2" value="16.205464198998087" />
-      <entry key="M5" value="17.81580572905916" />
-      <entry key="M10" value="18.396232542325084" />
-      <entry key="M15" value="18.59484794871852" />
-      <entry key="M30" value="18.79609181148729" />
-      <entry key="H1" value="18.897710603721407" />
-      <entry key="H2" value="18.94877119197536" />
-      <entry key="H4" value="18.974364532861003" />
-      <entry key="D1" value="18.995724493677912" />
-      <entry key="W1" value="18.99938914162548" />
+      <entry key="MS100" value="1.000297089093839" />
+      <entry key="MS500" value="1.3744926079179358" />
+      <entry key="S2" value="2.997856678945126" />
+      <entry key="S5" value="3.9983369994605455" />
+      <entry key="S10" value="4.456893319941548" />
+      <entry key="S30" value="4.834808527098953" />
+      <entry key="S60" value="5.5997202074995736" />
+      <entry key="M2" value="8.57835119888624" />
+      <entry key="M5" value="14.770110479748796" />
+      <entry key="M10" value="18.626950629165254" />
+      <entry key="M15" value="20.223959598895323" />
+      <entry key="M30" value="22.007669761480575" />
+      <entry key="H1" value="22.97629010992102" />
+      <entry key="H2" value="23.481066406095444" />
+      <entry key="H4" value="23.738738894377658" />
+      <entry key="D1" value="23.956205152954315" />
+      <entry key="W1" value="23.993737410438545" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -75,23 +72,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.048446973626699" />
-      <entry key="MS500" value="1.7330518969293829" />
-      <entry key="S2" value="2.4856001297483066" />
-      <entry key="S5" value="2.994509497743116" />
-      <entry key="S10" value="4.628211638635822" />
-      <entry key="S30" value="10.458352269676734" />
-      <entry key="S60" value="13.906575112145122" />
-      <entry key="M2" value="16.204169093121347" />
-      <entry key="M5" value="17.815221686754818" />
-      <entry key="M10" value="18.395928529792645" />
-      <entry key="M15" value="18.594642530717593" />
-      <entry key="M30" value="18.795987710954936" />
-      <entry key="H1" value="18.897658201767914" />
-      <entry key="H2" value="18.948744902597138" />
-      <entry key="H4" value="18.974351366011305" />
-      <entry key="D1" value="18.995722296119975" />
-      <entry key="W1" value="18.999388827613064" />
+      <entry key="MS100" value="0.9728412354972228" />
+      <entry key="MS500" value="1.273324643555725" />
+      <entry key="S2" value="2.868315579673856" />
+      <entry key="S5" value="3.925605607377201" />
+      <entry key="S10" value="4.41614440635132" />
+      <entry key="S30" value="4.820144438692703" />
+      <entry key="S60" value="5.5921443010458685" />
+      <entry key="M2" value="8.574290893326488" />
+      <entry key="M5" value="14.768272730796477" />
+      <entry key="M10" value="18.625965413718646" />
+      <entry key="M15" value="20.22328445367118" />
+      <entry key="M30" value="22.007321940133256" />
+      <entry key="H1" value="22.97611341431765" />
+      <entry key="H2" value="23.480977332326404" />
+      <entry key="H4" value="23.738694172159782" />
+      <entry key="D1" value="23.956197673178576" />
+      <entry key="W1" value="23.993736341256266" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -168,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795561900030</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add vocabulary sql file">
+      <option name="closed" value="true" />
+      <created>1795562158171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1795562158171</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +184,7 @@
     <MESSAGE value="Base files" />
     <MESSAGE value="sql schema file" />
     <MESSAGE value="initial 2 migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial 2 migrations" />
+    <MESSAGE value="Add vocabulary sql file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add vocabulary sql file" />
   </component>
 </project>
