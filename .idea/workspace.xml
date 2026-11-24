@@ -4,14 +4,98 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supabase/schemas/profiles.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DutchA2Quiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DutchA2Quiz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supabase/config.jsonc" beforeDir="false" afterPath="$PROJECT_DIR$/supabase/config.jsonc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;junwon1022&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/junwon1022/DutchA2Quiz.git&quot;,
+    &quot;accountId&quot;: &quot;42b6d24d-4bd5-4dd6-a28d-34b4cdf6b8b3&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.7350051015132877" />
+      <entry key="MS500" value="2.736874052218961" />
+      <entry key="S2" value="4.816759270012183" />
+      <entry key="S5" value="5.918961754372559" />
+      <entry key="S10" value="6.414859266335656" />
+      <entry key="S30" value="6.793836892063571" />
+      <entry key="S60" value="6.895445412617935" />
+      <entry key="M2" value="6.947347834516719" />
+      <entry key="M5" value="6.978848302650904" />
+      <entry key="M10" value="6.989408940320029" />
+      <entry key="M15" value="6.992935907930961" />
+      <entry key="M30" value="6.996466259807278" />
+      <entry key="H1" value="6.998232706110689" />
+      <entry key="H2" value="6.999116247075411" />
+      <entry key="H4" value="6.99955809703876" />
+      <entry key="D1" value="6.999926345825713" />
+      <entry key="W1" value="6.999989477884958" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.6528827383336617" />
+      <entry key="MS500" value="2.7095776619304797" />
+      <entry key="S2" value="4.795862850109667" />
+      <entry key="S5" value="5.905082297648404" />
+      <entry key="S10" value="6.406438995082676" />
+      <entry key="S30" value="6.790624469306283" />
+      <entry key="S60" value="6.8937828755615636" />
+      <entry key="M2" value="6.946502028092845" />
+      <entry key="M5" value="6.978506430986412" />
+      <entry key="M10" value="6.989237407905095" />
+      <entry key="M15" value="6.992821420036006" />
+      <entry key="M30" value="6.996408949289304" />
+      <entry key="H1" value="6.998204034191305" />
+      <entry key="H2" value="6.999101906948397" />
+      <entry key="H4" value="6.999550925933143" />
+      <entry key="D1" value="6.999925150496683" />
+      <entry key="W1" value="6.999989307120122" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
@@ -26,10 +110,17 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -48,9 +139,22 @@
       <updated>1795556215507</updated>
       <workItem from="1795556215509" duration="52000" />
     </task>
+    <task id="LOCAL-00001" summary="Node &amp; Supabase setup">
+      <option name="closed" value="true" />
+      <created>1795559769939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1795559769939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Node &amp; Supabase setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node &amp; Supabase setup" />
   </component>
 </project>
