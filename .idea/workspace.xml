@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Add secrets to gitignore">
-      <change afterPath="$PROJECT_DIR$/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supabase_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supabase_connection_test.py" afterDir="false" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Auth file">
+      <change afterPath="$PROJECT_DIR$/auth_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,23 +42,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0352197142659247" />
-      <entry key="MS500" value="2.104244646158305" />
-      <entry key="S2" value="4.568352441136506" />
-      <entry key="S5" value="6.206089753988882" />
-      <entry key="S10" value="7.008616735725775" />
-      <entry key="S30" value="7.666744276255141" />
-      <entry key="S60" value="8.87304215942329" />
-      <entry key="M2" value="16.891601949049967" />
-      <entry key="M5" value="49.53251195225418" />
-      <entry key="M10" value="84.92891299567773" />
-      <entry key="M15" value="104.25415059453918" />
-      <entry key="M30" value="129.78567752770857" />
-      <entry key="H1" value="145.61315141651247" />
-      <entry key="H2" value="154.4580536770337" />
-      <entry key="H4" value="159.13800789861483" />
-      <entry key="D1" value="163.17668062527264" />
-      <entry key="W1" value="163.88206026822803" />
+      <entry key="MS100" value="1.0316862337434385" />
+      <entry key="MS500" value="1.5013902750103378" />
+      <entry key="S2" value="1.975212444371865" />
+      <entry key="S5" value="3.4361704656410814" />
+      <entry key="S10" value="5.417800457386149" />
+      <entry key="S30" value="8.762972112339888" />
+      <entry key="S60" value="11.699946569127794" />
+      <entry key="M2" value="18.871749886608914" />
+      <entry key="M5" value="48.99096646402181" />
+      <entry key="M10" value="85.4550589489679" />
+      <entry key="M15" value="106.36994666324857" />
+      <entry key="M30" value="134.79272838480122" />
+      <entry key="H1" value="152.78746335588048" />
+      <entry key="H2" value="162.95271615740714" />
+      <entry key="H4" value="168.36080120673574" />
+      <entry key="D1" value="173.04361085100027" />
+      <entry key="W1" value="173.8629620103314" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -82,23 +80,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0069416225590806" />
-      <entry key="MS500" value="2.0918018120598663" />
-      <entry key="S2" value="4.56133633857209" />
-      <entry key="S5" value="6.202190974623697" />
-      <entry key="S10" value="7.006393885608748" />
-      <entry key="S30" value="7.665924843903069" />
-      <entry key="S60" value="8.872515376146595" />
-      <entry key="M2" value="16.890932988744318" />
-      <entry key="M5" value="49.53138578807559" />
-      <entry key="M10" value="84.92776345259284" />
-      <entry key="M15" value="104.25314978368176" />
-      <entry key="M30" value="129.78501458965937" />
-      <entry key="H1" value="145.61276787030985" />
-      <entry key="H2" value="154.45784711938538" />
-      <entry key="H4" value="159.1379006779708" />
-      <entry key="D1" value="163.1766621855576" />
-      <entry key="W1" value="163.88205761973575" />
+      <entry key="MS100" value="0.9967561009402631" />
+      <entry key="MS500" value="1.4917101644753266" />
+      <entry key="S2" value="1.972094885405118" />
+      <entry key="S5" value="3.4339574218959203" />
+      <entry key="S10" value="5.41602791179875" />
+      <entry key="S30" value="8.76200810063316" />
+      <entry key="S60" value="11.699288316427154" />
+      <entry key="M2" value="18.871115111677376" />
+      <entry key="M5" value="48.98996651344413" />
+      <entry key="M10" value="85.45398129825483" />
+      <entry key="M15" value="106.36898413168416" />
+      <entry key="M30" value="134.79207234486285" />
+      <entry key="H1" value="152.78707797863046" />
+      <entry key="H2" value="162.95250698368466" />
+      <entry key="H4" value="168.36069219717874" />
+      <entry key="D1" value="173.0435920411829" />
+      <entry key="W1" value="173.86295930713482" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -257,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1795564120915</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Client file">
+      <option name="closed" value="true" />
+      <created>1795564212406</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1795564212406</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Auth file">
+      <option name="closed" value="true" />
+      <created>1795564222553</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1795564222553</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +292,8 @@
     <MESSAGE value="User word progress migration file" />
     <MESSAGE value="Study sessions migration file" />
     <MESSAGE value="Add secrets to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add secrets to gitignore" />
+    <MESSAGE value="Client file" />
+    <MESSAGE value="Auth file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth file" />
   </component>
 </project>
