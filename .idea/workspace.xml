@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Add vocabulary sql file" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="vocabulary migration">
+      <change afterPath="$PROJECT_DIR$/supabase/schemas/decks.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supabase/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/supabase/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="junwon/initial-setup" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -34,23 +43,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000297089093839" />
-      <entry key="MS500" value="1.3744926079179358" />
-      <entry key="S2" value="2.997856678945126" />
-      <entry key="S5" value="3.9983369994605455" />
-      <entry key="S10" value="4.456893319941548" />
-      <entry key="S30" value="4.834808527098953" />
-      <entry key="S60" value="5.5997202074995736" />
-      <entry key="M2" value="8.57835119888624" />
-      <entry key="M5" value="14.770110479748796" />
-      <entry key="M10" value="18.626950629165254" />
-      <entry key="M15" value="20.223959598895323" />
-      <entry key="M30" value="22.007669761480575" />
-      <entry key="H1" value="22.97629010992102" />
-      <entry key="H2" value="23.481066406095444" />
-      <entry key="H4" value="23.738738894377658" />
-      <entry key="D1" value="23.956205152954315" />
-      <entry key="W1" value="23.993737410438545" />
+      <entry key="MS100" value="2.379790028160426" />
+      <entry key="MS500" value="6.74784284831892" />
+      <entry key="S2" value="14.823140283711245" />
+      <entry key="S5" value="19.039641692282473" />
+      <entry key="S10" value="21.139902137372363" />
+      <entry key="S30" value="24.20955659057537" />
+      <entry key="S60" value="26.328544602635734" />
+      <entry key="M2" value="29.60655615285253" />
+      <entry key="M5" value="36.998022921597745" />
+      <entry key="M10" value="42.69251316929235" />
+      <entry key="M15" value="45.29525264383931" />
+      <entry key="M30" value="48.36725321503579" />
+      <entry key="H1" value="50.107142683065184" />
+      <entry key="H2" value="51.033586536527274" />
+      <entry key="H4" value="51.51168474258091" />
+      <entry key="D1" value="51.91789486324697" />
+      <entry key="W1" value="51.98825295172348" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -72,23 +81,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9728412354972228" />
-      <entry key="MS500" value="1.273324643555725" />
-      <entry key="S2" value="2.868315579673856" />
-      <entry key="S5" value="3.925605607377201" />
-      <entry key="S10" value="4.41614440635132" />
-      <entry key="S30" value="4.820144438692703" />
-      <entry key="S60" value="5.5921443010458685" />
-      <entry key="M2" value="8.574290893326488" />
-      <entry key="M5" value="14.768272730796477" />
-      <entry key="M10" value="18.625965413718646" />
-      <entry key="M15" value="20.22328445367118" />
-      <entry key="M30" value="22.007321940133256" />
-      <entry key="H1" value="22.97611341431765" />
-      <entry key="H2" value="23.480977332326404" />
-      <entry key="H4" value="23.738694172159782" />
-      <entry key="D1" value="23.956197673178576" />
-      <entry key="W1" value="23.993736341256266" />
+      <entry key="MS100" value="2.2962153065463347" />
+      <entry key="MS500" value="6.700015124705526" />
+      <entry key="S2" value="14.794629636728011" />
+      <entry key="S5" value="19.0244021832633" />
+      <entry key="S10" value="21.131309999396127" />
+      <entry key="S30" value="24.206062957126115" />
+      <entry key="S60" value="26.325928523551738" />
+      <entry key="M2" value="29.60427623586824" />
+      <entry key="M5" value="36.99645809899913" />
+      <entry key="M10" value="42.691530527062426" />
+      <entry key="M15" value="45.294541358604306" />
+      <entry key="M30" value="48.36686576097555" />
+      <entry key="H1" value="50.10694021343413" />
+      <entry key="H2" value="51.03348300821659" />
+      <entry key="H4" value="51.51163239095381" />
+      <entry key="D1" value="51.917886055156" />
+      <entry key="W1" value="51.98825169138035" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -100,23 +109,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -173,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795562158171</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="vocabulary migration">
+      <option name="closed" value="true" />
+      <created>1795562307064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1795562307064</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +202,7 @@
     <MESSAGE value="sql schema file" />
     <MESSAGE value="initial 2 migrations" />
     <MESSAGE value="Add vocabulary sql file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add vocabulary sql file" />
+    <MESSAGE value="vocabulary migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="vocabulary migration" />
   </component>
 </project>
