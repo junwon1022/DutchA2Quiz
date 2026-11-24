@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Deck words migration file">
-      <change afterPath="$PROJECT_DIR$/supabase/schemas/user_word_progress.sql" afterDir="false" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="User word progress migration file">
+      <change afterPath="$PROJECT_DIR$/supabase/schemas/study_sessions.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +41,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000609536400831" />
-      <entry key="MS500" value="1.2275097060202247" />
-      <entry key="S2" value="1.6906373416825307" />
-      <entry key="S5" value="1.8650402169341094" />
-      <entry key="S10" value="2.029497293547898" />
-      <entry key="S30" value="4.051746755564655" />
-      <entry key="S60" value="8.31013929148768" />
-      <entry key="M2" value="18.91785262752537" />
-      <entry key="M5" value="44.47823564092032" />
-      <entry key="M10" value="65.10264535823133" />
-      <entry key="M15" value="74.98507636802069" />
-      <entry key="M30" value="87.07341463014721" />
-      <entry key="H1" value="94.13486505239425" />
-      <entry key="H2" value="97.96031018159984" />
-      <entry key="H4" value="99.95248717499908" />
-      <entry key="D1" value="101.65482708541845" />
-      <entry key="W1" value="101.95059252862784" />
+      <entry key="MS100" value="1.0719522020220122" />
+      <entry key="MS500" value="1.9224427005363451" />
+      <entry key="S2" value="4.163151480574032" />
+      <entry key="S5" value="6.195703334947175" />
+      <entry key="S10" value="10.61350780743565" />
+      <entry key="S30" value="23.816928233486266" />
+      <entry key="S60" value="33.44053667210796" />
+      <entry key="M2" value="46.94748450213822" />
+      <entry key="M5" value="75.08642126283158" />
+      <entry key="M10" value="97.76595736990394" />
+      <entry key="M15" value="108.72717455094052" />
+      <entry key="M30" value="122.21922744178474" />
+      <entry key="H1" value="130.14177308590507" />
+      <entry key="H2" value="134.44585689977737" />
+      <entry key="H4" value="136.69059366477603" />
+      <entry key="D1" value="138.61051315652733" />
+      <entry key="W1" value="138.94424545695568" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -79,23 +79,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9532027871962349" />
-      <entry key="MS500" value="1.214409546825376" />
-      <entry key="S2" value="1.6855863562845186" />
-      <entry key="S5" value="1.8627543498809946" />
-      <entry key="S10" value="2.0282656683026685" />
-      <entry key="S30" value="4.0510344340590665" />
-      <entry key="S60" value="8.309375702335574" />
-      <entry key="M2" value="18.916679387576174" />
-      <entry key="M5" value="44.47671826083923" />
-      <entry key="M10" value="65.10140408952898" />
-      <entry key="M15" value="74.98408917083091" />
-      <entry key="M30" value="87.07282198750654" />
-      <entry key="H1" value="94.13453956158311" />
-      <entry key="H2" value="97.96013950786977" />
-      <entry key="H4" value="99.95239977054203" />
-      <entry key="D1" value="101.65481222328643" />
-      <entry key="W1" value="101.95059039814788" />
+      <entry key="MS100" value="1.0359187959986735" />
+      <entry key="MS500" value="1.9094160510989373" />
+      <entry key="S2" value="4.155486203024702" />
+      <entry key="S5" value="6.190977532305768" />
+      <entry key="S10" value="10.609176782780304" />
+      <entry key="S30" value="23.813464522850477" />
+      <entry key="S60" value="33.438013969297124" />
+      <entry key="M2" value="46.94540049712339" />
+      <entry key="M5" value="75.08454278298493" />
+      <entry key="M10" value="97.76451615880136" />
+      <entry key="M15" value="108.72604398103061" />
+      <entry key="M30" value="122.21855552588833" />
+      <entry key="H1" value="130.14140542214412" />
+      <entry key="H2" value="134.44566440767358" />
+      <entry key="H4" value="136.69049515462112" />
+      <entry key="D1" value="138.61049641493736" />
+      <entry key="W1" value="138.94424305726727" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -230,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795563676247</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="User word progress migration file">
+      <option name="closed" value="true" />
+      <created>1795563771007</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1795563771007</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +256,7 @@
     <MESSAGE value="decks sql file addition" />
     <MESSAGE value="Decks migration file" />
     <MESSAGE value="Deck words migration file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deck words migration file" />
+    <MESSAGE value="User word progress migration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="User word progress migration file" />
   </component>
 </project>
