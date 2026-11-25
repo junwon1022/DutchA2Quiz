@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Auth file">
-      <change afterPath="$PROJECT_DIR$/auth_test.py" afterDir="false" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Separate backend / frontend">
+      <change afterPath="$PROJECT_DIR$/backend/schemas/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/schemas/vocabulary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +44,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0316862337434385" />
-      <entry key="MS500" value="1.5013902750103378" />
-      <entry key="S2" value="1.975212444371865" />
-      <entry key="S5" value="3.4361704656410814" />
-      <entry key="S10" value="5.417800457386149" />
-      <entry key="S30" value="8.762972112339888" />
-      <entry key="S60" value="11.699946569127794" />
-      <entry key="M2" value="18.871749886608914" />
-      <entry key="M5" value="48.99096646402181" />
-      <entry key="M10" value="85.4550589489679" />
-      <entry key="M15" value="106.36994666324857" />
-      <entry key="M30" value="134.79272838480122" />
-      <entry key="H1" value="152.78746335588048" />
-      <entry key="H2" value="162.95271615740714" />
-      <entry key="H4" value="168.36080120673574" />
-      <entry key="D1" value="173.04361085100027" />
-      <entry key="W1" value="173.8629620103314" />
+      <entry key="MS100" value="1.0903394763616865" />
+      <entry key="MS500" value="1.92612371114162" />
+      <entry key="S2" value="3.893190542000461" />
+      <entry key="S5" value="4.975280205344925" />
+      <entry key="S10" value="5.450618665555214" />
+      <entry key="S30" value="5.811343120073613" />
+      <entry key="S60" value="5.99316170796631" />
+      <entry key="M2" value="6.834152790492881" />
+      <entry key="M5" value="18.27806506151081" />
+      <entry key="M10" value="48.37599393840457" />
+      <entry key="M15" value="72.72823463629098" />
+      <entry key="M30" value="113.25951807062815" />
+      <entry key="H1" value="143.04216680479658" />
+      <entry key="H2" value="161.2041288173401" />
+      <entry key="H4" value="171.24864470496294" />
+      <entry key="D1" value="180.15681552330904" />
+      <entry key="W1" value="181.7354019404055" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -80,23 +82,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9967561009402631" />
-      <entry key="MS500" value="1.4917101644753266" />
-      <entry key="S2" value="1.972094885405118" />
-      <entry key="S5" value="3.4339574218959203" />
-      <entry key="S10" value="5.41602791179875" />
-      <entry key="S30" value="8.76200810063316" />
-      <entry key="S60" value="11.699288316427154" />
-      <entry key="M2" value="18.871115111677376" />
-      <entry key="M5" value="48.98996651344413" />
-      <entry key="M10" value="85.45398129825483" />
-      <entry key="M15" value="106.36898413168416" />
-      <entry key="M30" value="134.79207234486285" />
-      <entry key="H1" value="152.78707797863046" />
-      <entry key="H2" value="162.95250698368466" />
-      <entry key="H4" value="168.36069219717874" />
-      <entry key="D1" value="173.0435920411829" />
-      <entry key="W1" value="173.86295930713482" />
+      <entry key="MS100" value="1.053803678735354" />
+      <entry key="MS500" value="1.9130813257863495" />
+      <entry key="S2" value="3.8858590320905746" />
+      <entry key="S5" value="4.97143377997824" />
+      <entry key="S10" value="5.448494409480008" />
+      <entry key="S30" value="5.8105842100553815" />
+      <entry key="S60" value="5.992770091144339" />
+      <entry key="M2" value="6.833929179683948" />
+      <entry key="M5" value="18.277743925783906" />
+      <entry key="M10" value="48.37542931561246" />
+      <entry key="M15" value="72.72761239038002" />
+      <entry key="M30" value="113.25898787926387" />
+      <entry key="H1" value="143.0418173689202" />
+      <entry key="H2" value="161.20392778513923" />
+      <entry key="H4" value="171.24853682908963" />
+      <entry key="D1" value="180.15679644858278" />
+      <entry key="W1" value="181.73539918761287" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -104,6 +106,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3MZRgIJ1uEzm9IybjRIzRmNJbmN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -127,6 +132,11 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\junwo\PycharmProjects\DutchA2Quiz\frontend" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -271,7 +281,23 @@
       <option name="project" value="LOCAL" />
       <updated>1795564222553</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Auth test file">
+      <option name="closed" value="true" />
+      <created>1795564583812</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1795564583812</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Separate backend / frontend">
+      <option name="closed" value="true" />
+      <created>1795564859820</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1795564859820</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +320,8 @@
     <MESSAGE value="Add secrets to gitignore" />
     <MESSAGE value="Client file" />
     <MESSAGE value="Auth file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth file" />
+    <MESSAGE value="Auth test file" />
+    <MESSAGE value="Separate backend / frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Separate backend / frontend" />
   </component>
 </project>
