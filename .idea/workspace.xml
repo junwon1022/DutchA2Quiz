@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="Separate backend / frontend">
-      <change afterPath="$PROJECT_DIR$/backend/schemas/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/schemas/vocabulary.py" afterDir="false" />
+    <list default="true" id="207a719a-16e7-4121-b9cc-13c6df9e960e" name="Changes" comment="vocabulary request &amp; response">
+      <change afterPath="$PROJECT_DIR$/backend/queries/vocabulary/get_vocabulary_list_query_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/queries/vocabulary.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/queries/vocabulary/get_vocabulary_list_query.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +43,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0903394763616865" />
-      <entry key="MS500" value="1.92612371114162" />
-      <entry key="S2" value="3.893190542000461" />
-      <entry key="S5" value="4.975280205344925" />
-      <entry key="S10" value="5.450618665555214" />
-      <entry key="S30" value="5.811343120073613" />
-      <entry key="S60" value="5.99316170796631" />
-      <entry key="M2" value="6.834152790492881" />
-      <entry key="M5" value="18.27806506151081" />
-      <entry key="M10" value="48.37599393840457" />
-      <entry key="M15" value="72.72823463629098" />
-      <entry key="M30" value="113.25951807062815" />
-      <entry key="H1" value="143.04216680479658" />
-      <entry key="H2" value="161.2041288173401" />
-      <entry key="H4" value="171.24864470496294" />
-      <entry key="D1" value="180.15681552330904" />
-      <entry key="W1" value="181.7354019404055" />
+      <entry key="MS100" value="1.1560449253117888" />
+      <entry key="MS500" value="1.850323674993025" />
+      <entry key="S2" value="3.6725039789766942" />
+      <entry key="S5" value="5.5961989506987" />
+      <entry key="S10" value="7.333062928659807" />
+      <entry key="S30" value="9.440885761621887" />
+      <entry key="S60" value="10.233244430333787" />
+      <entry key="M2" value="11.290331531675168" />
+      <entry key="M5" value="18.260435876069455" />
+      <entry key="M10" value="41.76811353648747" />
+      <entry key="M15" value="64.83183117926242" />
+      <entry key="M30" value="108.46514882237804" />
+      <entry key="H1" value="143.69938315445012" />
+      <entry key="H2" value="166.26804890663647" />
+      <entry key="H4" value="179.06640079369916" />
+      <entry key="D1" value="190.59452453377668" />
+      <entry key="W1" value="192.6542632183231" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -82,23 +81,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.053803678735354" />
-      <entry key="MS500" value="1.9130813257863495" />
-      <entry key="S2" value="3.8858590320905746" />
-      <entry key="S5" value="4.97143377997824" />
-      <entry key="S10" value="5.448494409480008" />
-      <entry key="S30" value="5.8105842100553815" />
-      <entry key="S60" value="5.992770091144339" />
-      <entry key="M2" value="6.833929179683948" />
-      <entry key="M5" value="18.277743925783906" />
-      <entry key="M10" value="48.37542931561246" />
-      <entry key="M15" value="72.72761239038002" />
-      <entry key="M30" value="113.25898787926387" />
-      <entry key="H1" value="143.0418173689202" />
-      <entry key="H2" value="161.20392778513923" />
-      <entry key="H4" value="171.24853682908963" />
-      <entry key="D1" value="180.15679644858278" />
-      <entry key="W1" value="181.73539918761287" />
+      <entry key="MS100" value="1.1038535980171926" />
+      <entry key="MS500" value="1.8300992899819228" />
+      <entry key="S2" value="3.6628564577173823" />
+      <entry key="S5" value="5.590663980555138" />
+      <entry key="S10" value="7.329578683657898" />
+      <entry key="S30" value="9.439436063252515" />
+      <entry key="S60" value="10.232465501482057" />
+      <entry key="M2" value="11.289906840407932" />
+      <entry key="M5" value="18.26014128403959" />
+      <entry key="M10" value="41.767670821476386" />
+      <entry key="M15" value="64.83131491924074" />
+      <entry key="M30" value="108.46466477084655" />
+      <entry key="H1" value="143.69904510259084" />
+      <entry key="H2" value="166.26784834063113" />
+      <entry key="H4" value="179.06629145542513" />
+      <entry key="D1" value="190.59450494092616" />
+      <entry key="W1" value="192.6542603842413" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -297,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1795564859820</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="main py file">
+      <option name="closed" value="true" />
+      <created>1795565238018</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1795565238018</updated>
+    </task>
+    <task id="LOCAL-00020" summary="vocabulary request &amp; response">
+      <option name="closed" value="true" />
+      <created>1795565247980</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1795565247980</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +337,8 @@
     <MESSAGE value="Auth file" />
     <MESSAGE value="Auth test file" />
     <MESSAGE value="Separate backend / frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separate backend / frontend" />
+    <MESSAGE value="main py file" />
+    <MESSAGE value="vocabulary request &amp; response" />
+    <option name="LAST_COMMIT_MESSAGE" value="vocabulary request &amp; response" />
   </component>
 </project>
